@@ -1,0 +1,33 @@
+code{
+    background-color: whitesmoke;
+    line-height: 50px;
+    padding: 20px;
+}
+html{
+    height: 100%;
+   
+}
+
+main {
+    height: 100%;
+    display: flex;
+}
+
+body{
+    font-size: 20px;
+
+}
+main::before{
+    content: '' ;
+    display: block;
+    flex: 1 1 35%;
+    background-image: url(growing-avos.jpg);
+}
+
+main article {
+    padding: 40px 40px 0 40px;
+    flex: 1 1 65%;
+    background-color: bisque;
+    padding-top: 500px;
+    padding-bottom: 500px;
+}
