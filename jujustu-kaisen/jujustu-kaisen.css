@@ -1,0 +1,23 @@
+article {
+    height: 70vh;
+    width: 100%;
+    background: center url(jujustu-kaisen.png) no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+article div {
+    color: white;
+    position: absolute ; bottom: 0px;
+   padding: 0 0 40px 30px;
+}
+
+article div h1{
+    text-transform: uppercase;
+    font-size: 5em;
+    margin: 0 0 20px 0;
+}
+.fa-star{
+    color: yellow;
+    font-size: 2.4em;
+}
