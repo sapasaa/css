@@ -1,0 +1,38 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  font-size: 50px;
+  color: #FFF;
+}
+
+.box {
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+}
+
+.box .row {
+  border: 1px dotted grey;
+}
+
+.box .row.header {
+  flex: 0 1 auto;
+  /* The above is shorthand for:
+  flex-grow: 0,
+  flex-shrink: 1,
+  flex-basis: auto
+  */
+  background-color: #345995;
+}
+
+.box .row.content {
+  flex: 1 1 auto;
+  background-color: #03CEA4;
+}
+
+.box .row.footer {
+  flex: 0 1 40px;
+  background-color: #E57858;
+  
+}
